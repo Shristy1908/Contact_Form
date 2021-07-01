@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact_form.css">
+    <script src="https://kit.fontawesome.com/416879b001.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="main">
+        <form>
+            <fieldset>
+                <legend>CONTACT FORM</legend>
+            <div class="input">
+                <input type="text" id="name" required>
+                <label for="name"><i class="fas fa-user"></i> Your Name</label>    
+            </div>
+            <div class="input">
+                <input type="text" id="number" required>
+                <label for="number"><i class="fas fa-phone"></i> Phone No.</label>    
+            </div>
+            <div class="input">
+                <input type="email" id="email" required>
+                <label for="email"><i class="fas fa-envelope"></i> Email Id</label>    
+            </div>
+            <div class="input">
+                <textarea id="message" rows="10" required></textarea>
+                <label for="message"><i class="fas fa-comments"></i> Your Message</label>    
+            </div>
+        </fieldset>
+            <button type="submit">SUBMIT <i class="fab fa-telegram-plane"></i></button>
+        </form>
+    </div>
+</body>
+</html>
